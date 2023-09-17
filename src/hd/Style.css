@@ -1,0 +1,81 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .route{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+     height:62px;
+   font-style: italic;
+    background-color:rgb(44, 44, 133)
+  }
+  .navlink{
+    color:white;
+    text-decoration: none;
+    font-size:28px;
+    font-weight:bold;
+    font-style: italic;
+    font-family:cursive;
+  }
+  .navlink:hover{
+    background-color:pink;
+    color:black;
+  }
+  .head{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left:110px;
+    margin-top: 43px;
+    margin-top: 18px;
+    
+  }
+  .Add-btn{
+    float: right;
+    background-color: rgb(11, 249, 253);
+    border-radius:20px;
+    font-size: 20px;
+    width: 300px;
+    height:60px;
+    padding:10px;
+    margin-top: 43px;
+    margin-right: 111px;
+  }
+  .tab{
+   border:1px solid black;
+   width:85vw;
+   height:56vh;
+   border-radius:4%;
+   border-collapse: collapse;
+   text-align: center;
+   background-color:white;
+   margin-top: 78px;
+   margin-left:119px;
+  }
+  tr,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  .editForm{
+    /* border:2px solid red; */
+    margin-top: 30px;
+    width:700;
+    height: 400px;
+  }
+  input{
+    width:410px;
+    margin-top: 18px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    height: 63px;
+    border-radius:15px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .updateForm{
+    margin-top: 30px;
+    width:700;
+    height: 400px;
+}
